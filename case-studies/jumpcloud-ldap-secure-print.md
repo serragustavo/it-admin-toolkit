@@ -48,3 +48,7 @@
 - Check the **existing routing** before designing new tunnels.
 - NetBIOS's 15-character limit still bites Windows services in 2026.
 - Never leave a personal account as the LDAP bind: use a least-privilege service account.
+
+## Result
+
+Rolled out to production: the print queue was deployed to **80 laptops** and **PIN release is live for all users**. Every job is mapped to the correct JumpCloud user, with no on-prem AD, no local accounts and no extra agents on the server.
